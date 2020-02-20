@@ -1,4 +1,4 @@
-#include "TrieNodeTpl.h"
+#include "Trie.h"
 
 #include <fstream>
 #include <stdexcept>

@@ -1,7 +1,7 @@
 #include "Board.h"
 #include "utils.h"
 #include "Solver.h"
-#include "TrieNodeTpl.h"
+#include "Trie.h"
 
 #include <chrono>
 #include <iostream>
@@ -197,7 +197,6 @@ int boggle( int argc, char * argv[] )
 int main( int argc, char * argv[] )
 {
     string fname = filename( argv[0] );
-    cout << "The fname is " << fname << endl;
     if( fname == "test_trie" )
     {
         return bin::test_trie( argc, argv );

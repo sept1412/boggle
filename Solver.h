@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Board.h"
-#include "TrieNodeTpl.h"
+#include "Trie.h"
 
 #include <set>
 #include <string>
